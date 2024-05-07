@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.nav-link::after {
+.nav-link::after {  /* Понять, как работает анимация */
     content: "";
     position: absolute;
     height: 1px;
