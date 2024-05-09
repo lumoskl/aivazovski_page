@@ -38,8 +38,5 @@
     .about-subtitle-ru, .about-subtitle-en, 
     .about-description-ru, .about-description-en {
         font-size: 14px;
-        font-weight: 500;
-        margin: 0 auto 15px;
-        max-width: 780px;
     }
 }
