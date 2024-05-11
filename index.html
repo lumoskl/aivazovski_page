@@ -40,6 +40,42 @@
         </div>
     </header>
 
+    <div class="mobile-nav" aria-label="mobile navigation">
+        <label for="toggler-id" aria-label="open-close mobile navigation menu">
+            <svg class="mob-nav-burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggler-id" class="mobile-nav-toggler">
+
+        <nav class="mobile-nav-menu" aria-label="mob header navigation menu">
+            <ul class="mobile-nav-list" aria-label="mob header navigation list">
+                <li>
+                    <a href="#home-id" class="mobile-nav-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-nav-link" aria-label="link to about">About</a>
+                </li>
+                <li>
+                    <a href="#history-id" class="mobile-nav-link" aria-label="link to history">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio-id" class="mobile-nav-link" aria-label="link to portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts-id" class="mobile-nav-link" aria-label="link to contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mob-nav-close" aria-label="open-close mobile navigation menu">
+                <svg class="mob-nav-cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main class="main" aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
             <div class="container">
@@ -72,7 +108,7 @@
                 <h2 class="portfolio-title">Portfolio</h2>
                 
                 <img src="assets/webp/portfolio_1.webp" alt="Winter wagon train on the way" class="portfolio-picture">
-                <p class="portfolio-description" aria-label="picture 1 description">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
+                <p class="portfolio-description" aria-label="picture 1 description">Зимний обоз в пути, 1857 г. | Winter wagon train on the way 1857</p>
 
                 <img src="assets/webp/portfolio_2.webp" alt="Rainbow" class="portfolio-picture">
                 <p class="portfolio-description" aria-label="picture 2 description">Радуга, 1873 г. | Rainbow, 1873</p>
@@ -86,9 +122,13 @@
     <footer class="contacts" aria-label="contacts section" id="contacts-id">
         <div class="container">
             <h2 class="contacts-title">Contacts</h2>
-            <button class="contacts-button">
-                <a href="https://ayvazovskiy.su/" class="button-link" target="_blank">ayvazovskiy.su</a>
-            </button>
+            <form action="https://ayvazovskiy.su/" target="_blank">
+                <button class="contacts-button">ayvazovskiy.su</button>
+            </form>
+            
+            <!-- <a href="https://ayvazovskiy.su/" target="_blank">
+                <button class="contacts-button">ayvazovskiy.su</button>
+            </a> -->
 
             <address class="socials" aria-label="social icons">
                 <a href="https://youtube.com" target="_blank" aria-label="link to youtube">

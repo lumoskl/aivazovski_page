@@ -16,17 +16,15 @@
     border: none;
     border-radius: 21px;
     transition: opacity .4s;
-    margin: 60px 0 30px;
+    margin: 40px auto 30px;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    color: var(--bg-main);
 }
 
 .contacts-button:hover {
     opacity: .8;
-}
-
-.button-link {
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--bg-main);
 }
 
 .socials {
